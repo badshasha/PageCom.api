@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "vilk4KxWtyaufhMZ8w9hlVk7szpItuIP4tAu0O+T4jp5eSpg235QOJN9gNR+2TnzQNOaqx3jbcSKRetphRdzqQ==",
+  "dgSpecHash": "pYuUrt54lm73zic1AZwJFrtyttondUIa2jF/Mj+dtJFkVyOdeVHsTrNGicwNJEPNaUen6leV+AeVMcHs83FADQ==",
   "success": true,
   "projectFilePath": "D:\\myproject\\PageCom\\Aggregator\\PageCom.Api\\PageCom.Api.Application\\PageCom.Api.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\badshasha\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\badshasha\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\badshasha\\.nuget\\packages\\fluentvalidation\\11.2.0\\fluentvalidation.11.2.0.nupkg.sha512",
+    "C:\\Users\\badshasha\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
+    "C:\\Users\\badshasha\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
     "C:\\Users\\badshasha\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\badshasha\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
     "C:\\Users\\badshasha\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
