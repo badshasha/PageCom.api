@@ -5,11 +5,11 @@ using pageCom.api.Data.DataBase;
 
 namespace pageCom.api.Data.Repository.BaseRepository;
 
-public class BaseRepositiory<T> : IGeneric<T> where T : class
+public class BaseRepositioryInmplimentation<T> : IGeneric<T> where T : class
 {
     private readonly ApplicationDbContext _context;
 
-    public BaseRepositiory(ApplicationDbContext context)
+    public BaseRepositioryInmplimentation(ApplicationDbContext context)
     {
         _context = context;
     }
