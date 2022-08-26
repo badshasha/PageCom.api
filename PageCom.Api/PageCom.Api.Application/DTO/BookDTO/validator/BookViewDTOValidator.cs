@@ -15,7 +15,7 @@ public class BookViewDTOValidator : AbstractValidator<BookViewDTO>
 
     private bool NotContainingSpecialCharacter(string name)
     {
-        var value = name.Any(character => char.IsLetterOrDigit(character));
-        return value;
+        var value = name.Any(character => !char.IsLetterOrDigit(character));
+        return !value;
     }
 }

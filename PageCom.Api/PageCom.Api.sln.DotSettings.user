@@ -1,0 +1,10 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=8c48ed4f_002D2b85_002D49ce_002D88b5_002D901c74d5828c/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="BookGetAllRequestHandler_WhenCall_ReturnAllBooksOnTheTable" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::3A15DEBD-6714-4E3F-95D3-C0D29A08EC04::net6.0::PageCom.api.test.BookUnitTest.Query.PublisherGetRequestTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::3A15DEBD-6714-4E3F-95D3-C0D29A08EC04::net6.0::PageCom.api.test.BookUnitTest.Query.PublisherGetFromIdTest.BookGetFromIdRequestHandler_ValidIdRequest_ReturnBookDTOInfo&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::3A15DEBD-6714-4E3F-95D3-C0D29A08EC04::net6.0::PageCom.api.test.BookUnitTest.Commands.BookAddUnittest.BookCreateRequestCommand_AddValidBookObj_ReturnCreatedBookDtoView&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::3A15DEBD-6714-4E3F-95D3-C0D29A08EC04::net6.0::PageCom.api.test.BookUnitTest.Commands.BookAddUnittest.BookCreateRequest_InvalidInput_ReturnException&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::3A15DEBD-6714-4E3F-95D3-C0D29A08EC04::net6.0::PageCom.api.test.BookUnitTest.Commands.BookAddUnittest&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
