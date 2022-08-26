@@ -1,7 +1,7 @@
 ﻿using MediatR;
 using Microsoft.EntityFrameworkCore;
 using PageCom.Api.Application.Contract.GenericPattern;
-using pageCom.api.Data.DataBase;
+
 
 namespace pageCom.api.Data.Repository.BaseRepository;
 

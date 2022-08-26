@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "mL0emkZhefar3WSBys4l/y8Z/rXFBmVIyqBzfC2Wmvg=",
+  "Source": "PageCom.api.App",
+  "BasePath": "_content/PageCom.api.App",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

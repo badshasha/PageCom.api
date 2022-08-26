@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage;
-using pageCom.api.Data.DataBase;
+using pageCom.api.Data;
 using PageCome.Api.Demain;
 
 namespace PageCom.api.App.databasePreperation;
