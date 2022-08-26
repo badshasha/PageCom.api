@@ -25,12 +25,13 @@ public class BookUpdateRequestCommandHandler : BaseRequesthandlingInfo , IReques
     {
         Book? updateBookInfo = null;
         var requestUpdateBook = await this.Service.Get(request.requestedbook_id);
-        if (requestUpdateBook != null) throw new Exception("invalid input");
+        if (requestUpdateBook == null) throw new Exception("invalid input");
         var validateResult = await _validator.ValidateAsync(request.bookinfo);
         if (!validateResult.IsValid) throw new ValidationException(validateResult.ToString());
         try
         {
             this.Mapper.Map(request.bookinfo, requestUpdateBook);
+            requestUpdateBook.Id = request.requestedbook_id;
             updateBookInfo = await this.Service.Update(requestUpdateBook!);
         }
         catch (Exception ex)

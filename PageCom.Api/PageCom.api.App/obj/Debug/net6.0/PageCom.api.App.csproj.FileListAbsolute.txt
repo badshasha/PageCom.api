@@ -72,3 +72,4 @@ D:\myproject\PageCom\Aggregator\PageCom.Api\PageCom.api.App\obj\Debug\net6.0\Pag
 D:\myproject\PageCom\Aggregator\PageCom.Api\PageCom.api.App\obj\Debug\net6.0\ref\PageCom.api.App.dll
 D:\myproject\PageCom\Aggregator\PageCom.Api\PageCom.api.App\bin\Debug\net6.0\Humanizer.dll
 D:\myproject\PageCom\Aggregator\PageCom.Api\PageCom.api.App\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\myproject\PageCom\Aggregator\PageCom.Api\PageCom.api.App\bin\Debug\net6.0\MediatR.Extensions.Microsoft.DependencyInjection.dll

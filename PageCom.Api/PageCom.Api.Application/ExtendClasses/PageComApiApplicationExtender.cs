@@ -3,6 +3,7 @@ using FluentValidation;
 using Microsoft.Extensions.DependencyInjection;
 using PageCom.Api.Application.DTO.BookDTO;
 using PageCom.Api.Application.DTO.BookDTO.validator;
+using MediatR;
 
 namespace PageCom.Api.Application.ExtendClasses;
 
@@ -12,6 +13,7 @@ public static class PageComApiApplicationExtender
     {
         // auto mapper 
         service.AddAutoMapper(Assembly.GetExecutingAssembly());
+        service.AddMediatR(Assembly.GetExecutingAssembly());
 
         
         // validator 
