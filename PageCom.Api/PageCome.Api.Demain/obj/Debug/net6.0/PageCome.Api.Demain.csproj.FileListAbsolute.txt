@@ -1,0 +1,12 @@
+D:\myproject\PageCom\Aggregator\PageCom.Api\PageCome.Api.Demain\bin\Debug\net6.0\PageCome.Api.Demain.deps.json
+D:\myproject\PageCom\Aggregator\PageCom.Api\PageCome.Api.Demain\bin\Debug\net6.0\PageCome.Api.Demain.dll
+D:\myproject\PageCom\Aggregator\PageCom.Api\PageCome.Api.Demain\bin\Debug\net6.0\PageCome.Api.Demain.pdb
+D:\myproject\PageCom\Aggregator\PageCom.Api\PageCome.Api.Demain\obj\Debug\net6.0\PageCome.Api.Demain.csproj.AssemblyReference.cache
+D:\myproject\PageCom\Aggregator\PageCom.Api\PageCome.Api.Demain\obj\Debug\net6.0\PageCome.Api.Demain.GeneratedMSBuildEditorConfig.editorconfig
+D:\myproject\PageCom\Aggregator\PageCom.Api\PageCome.Api.Demain\obj\Debug\net6.0\PageCome.Api.Demain.AssemblyInfoInputs.cache
+D:\myproject\PageCom\Aggregator\PageCom.Api\PageCome.Api.Demain\obj\Debug\net6.0\PageCome.Api.Demain.AssemblyInfo.cs
+D:\myproject\PageCom\Aggregator\PageCom.Api\PageCome.Api.Demain\obj\Debug\net6.0\PageCome.Api.Demain.csproj.CoreCompileInputs.cache
+D:\myproject\PageCom\Aggregator\PageCom.Api\PageCome.Api.Demain\obj\Debug\net6.0\PageCome.Api.Demain.dll
+D:\myproject\PageCom\Aggregator\PageCom.Api\PageCome.Api.Demain\obj\Debug\net6.0\refint\PageCome.Api.Demain.dll
+D:\myproject\PageCom\Aggregator\PageCom.Api\PageCome.Api.Demain\obj\Debug\net6.0\PageCome.Api.Demain.pdb
+D:\myproject\PageCom\Aggregator\PageCom.Api\PageCome.Api.Demain\obj\Debug\net6.0\ref\PageCome.Api.Demain.dll

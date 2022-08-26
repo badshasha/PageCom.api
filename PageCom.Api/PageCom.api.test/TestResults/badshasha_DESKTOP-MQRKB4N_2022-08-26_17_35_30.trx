@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="f2baf8e0-1d13-4821-8d5e-61f7e998a0a6" name="badshasha@DESKTOP-MQRKB4N 2022-08-26 17:35:30" runUser="DESKTOP-MQRKB4N\badshasha" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2022-08-26T17:35:30.8956696+05:30" queuing="2022-08-26T17:35:30.8956700+05:30" start="2022-08-26T17:35:29.2136093+05:30" finish="2022-08-26T17:35:30.9095317+05:30" />
+  <TestSettings name="default" id="40a17134-cb2d-4d37-927d-26199eecf6f3">
+    <Deployment runDeploymentRoot="badshasha_DESKTOP-MQRKB4N_2022-08-26_17_35_30" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="5d367b74-d3c6-4a03-b956-03c6a867c43e" testId="90667dd0-6b0c-5026-f34e-3ee3d9cae994" testName="BookGetAllRequestHandler_WhenCall_ReturnAllBooksOnTheTable" computerName="DESKTOP-MQRKB4N" duration="00:00:00.2114430" startTime="2022-08-26T17:35:30.3972766+05:30" endTime="2022-08-26T17:35:30.6086334+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5d367b74-d3c6-4a03-b956-03c6a867c43e" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="BookGetAllRequestHandler_WhenCall_ReturnAllBooksOnTheTable" storage="d:\myproject\pagecom\aggregator\pagecom.api\pagecom.api.test\bin\debug\net6.0\pagecom.api.test.dll" id="90667dd0-6b0c-5026-f34e-3ee3d9cae994">
+      <Execution id="5d367b74-d3c6-4a03-b956-03c6a867c43e" />
+      <TestMethod codeBase="D:\myproject\PageCom\Aggregator\PageCom.Api\PageCom.api.test\bin\Debug\net6.0\PageCom.api.test.dll" adapterTypeName="executor://nunit3testexecutor/" className="PageCom.api.test.BookUnitTest.Query.PublisherGetRequestTest" name="BookGetAllRequestHandler_WhenCall_ReturnAllBooksOnTheTable" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="90667dd0-6b0c-5026-f34e-3ee3d9cae994" executionId="5d367b74-d3c6-4a03-b956-03c6a867c43e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>NUnit Adapter 4.2.0.0: Test execution started&#xD;
+Running all tests in D:\myproject\PageCom\Aggregator\PageCom.Api\PageCom.api.test\bin\Debug\net6.0\PageCom.api.test.dll&#xD;
+   NUnit3TestExecutor discovered 1 of 1 NUnit test cases using Current Discovery mode, Non-Explicit run&#xD;
+NUnit Adapter 4.2.0.0: Test execution complete&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

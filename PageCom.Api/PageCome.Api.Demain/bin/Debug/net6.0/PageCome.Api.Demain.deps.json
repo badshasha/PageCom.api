@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "PageCome.Api.Demain/1.0.0": {
+        "runtime": {
+          "PageCome.Api.Demain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PageCome.Api.Demain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

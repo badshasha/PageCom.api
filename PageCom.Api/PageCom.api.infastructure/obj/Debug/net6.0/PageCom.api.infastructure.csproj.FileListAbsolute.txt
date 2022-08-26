@@ -1,0 +1,17 @@
+D:\myproject\PageCom\Aggregator\PageCom.Api\PageCom.api.infastructure\bin\Debug\net6.0\PageCom.api.infastructure.deps.json
+D:\myproject\PageCom\Aggregator\PageCom.Api\PageCom.api.infastructure\bin\Debug\net6.0\PageCom.api.infastructure.dll
+D:\myproject\PageCom\Aggregator\PageCom.Api\PageCom.api.infastructure\bin\Debug\net6.0\PageCom.api.infastructure.pdb
+D:\myproject\PageCom\Aggregator\PageCom.Api\PageCom.api.infastructure\bin\Debug\net6.0\PageCom.Api.Application.dll
+D:\myproject\PageCom\Aggregator\PageCom.Api\PageCom.api.infastructure\bin\Debug\net6.0\PageCome.Api.Demain.dll
+D:\myproject\PageCom\Aggregator\PageCom.Api\PageCom.api.infastructure\bin\Debug\net6.0\PageCom.Api.Application.pdb
+D:\myproject\PageCom\Aggregator\PageCom.Api\PageCom.api.infastructure\bin\Debug\net6.0\PageCome.Api.Demain.pdb
+D:\myproject\PageCom\Aggregator\PageCom.Api\PageCom.api.infastructure\obj\Debug\net6.0\PageCom.api.infastructure.csproj.AssemblyReference.cache
+D:\myproject\PageCom\Aggregator\PageCom.Api\PageCom.api.infastructure\obj\Debug\net6.0\PageCom.api.infastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\myproject\PageCom\Aggregator\PageCom.Api\PageCom.api.infastructure\obj\Debug\net6.0\PageCom.api.infastructure.AssemblyInfoInputs.cache
+D:\myproject\PageCom\Aggregator\PageCom.Api\PageCom.api.infastructure\obj\Debug\net6.0\PageCom.api.infastructure.AssemblyInfo.cs
+D:\myproject\PageCom\Aggregator\PageCom.Api\PageCom.api.infastructure\obj\Debug\net6.0\PageCom.api.infastructure.csproj.CoreCompileInputs.cache
+D:\myproject\PageCom\Aggregator\PageCom.Api\PageCom.api.infastructure\obj\Debug\net6.0\PageCom.api.infastructure.csproj.CopyComplete
+D:\myproject\PageCom\Aggregator\PageCom.Api\PageCom.api.infastructure\obj\Debug\net6.0\PageCom.api.infastructure.dll
+D:\myproject\PageCom\Aggregator\PageCom.Api\PageCom.api.infastructure\obj\Debug\net6.0\refint\PageCom.api.infastructure.dll
+D:\myproject\PageCom\Aggregator\PageCom.Api\PageCom.api.infastructure\obj\Debug\net6.0\PageCom.api.infastructure.pdb
+D:\myproject\PageCom\Aggregator\PageCom.Api\PageCom.api.infastructure\obj\Debug\net6.0\ref\PageCom.api.infastructure.dll
