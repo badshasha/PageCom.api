@@ -1,0 +1,12 @@
+﻿[1] use for test bookCQRS , mapping and & other validation 
+[2] mock information contain in mokes_information folder
+[3] test mainly based on two categories
+        |
+        --------> Query 
+                        GETALL
+                        GETFROMID
+                  Command 
+                        CREAT
+                        DELETE
+                        UPDATE
+        
