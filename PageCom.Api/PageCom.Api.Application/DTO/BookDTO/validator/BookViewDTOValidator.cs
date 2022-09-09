@@ -9,8 +9,8 @@ public class BookViewDTOValidator : AbstractValidator<BookViewDTO>
         RuleFor(x => x.Name)
             .NotEmpty().WithMessage("name required")
             .NotNull().WithMessage("null value not allowed")
-            .Length(2, 20).WithMessage("2 to 20 characters allow")
-            .Must(NotContainingSpecialCharacter).WithMessage("special characters not allow");
+            .Length(2, 20).WithMessage("2 to 20 characters allow");
+        //.Must(NotContainingSpecialCharacter).WithMessage("special characters not allow");
     }
 
     private bool NotContainingSpecialCharacter(string name)

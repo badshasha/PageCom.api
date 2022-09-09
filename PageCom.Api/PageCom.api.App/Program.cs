@@ -1,4 +1,6 @@
+using Microsoft.AspNetCore.Mvc.ApplicationParts;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.IdentityModel.Tokens;
 using PageCom.api.App.databasePreperation;
 using PageCom.Api.Application.ExtendClasses;
 using pageCom.api.Data.ExtendClass;
@@ -16,6 +18,26 @@ builder.Services.AddSwaggerGen();
 builder.Services.ApplicationExtendService();
 builder.Services.PageComApiInfastructureExtenderInfo(builder.Configuration);
 
+
+// authentication  TODO add to infastructure class lib 
+
+
+builder.Services.AddAuthentication("bearer").AddJwtBearer("bearer", options =>
+{
+    options.Authority = "https://localhost:7100";
+    options.TokenValidationParameters = new TokenValidationParameters()
+    {
+        ValidateAudience = false
+    };
+
+});
+
+
+// builder.Services.AddAuthorization(options =>
+// {
+//     options.AddPolicy("bookPolicy",policy => policy.RequireClaim("client_id",""));
+// })
+
 var app = builder.Build();
 PrepData.DataBaseCreate(app); // database creating [+]
 
@@ -28,6 +50,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();

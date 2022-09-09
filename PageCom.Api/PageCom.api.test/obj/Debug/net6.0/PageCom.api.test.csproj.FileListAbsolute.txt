@@ -157,3 +157,4 @@ D:\myproject\PageCom\Aggregator\PageCom.Api\PageCom.api.test\obj\Debug\net6.0\re
 D:\myproject\PageCom\Aggregator\PageCom.Api\PageCom.api.test\obj\Debug\net6.0\PageCom.api.test.pdb
 D:\myproject\PageCom\Aggregator\PageCom.Api\PageCom.api.test\obj\Debug\net6.0\PageCom.api.test.genruntimeconfig.cache
 D:\myproject\PageCom\Aggregator\PageCom.Api\PageCom.api.test\obj\Debug\net6.0\ref\PageCom.api.test.dll
+D:\myproject\PageCom\Aggregator\PageCom.Api\PageCom.api.test\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

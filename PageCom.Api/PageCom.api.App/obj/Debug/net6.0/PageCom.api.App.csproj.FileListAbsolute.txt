@@ -73,3 +73,4 @@ D:\myproject\PageCom\Aggregator\PageCom.Api\PageCom.api.App\obj\Debug\net6.0\ref
 D:\myproject\PageCom\Aggregator\PageCom.Api\PageCom.api.App\bin\Debug\net6.0\Humanizer.dll
 D:\myproject\PageCom\Aggregator\PageCom.Api\PageCom.api.App\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
 D:\myproject\PageCom\Aggregator\PageCom.Api\PageCom.api.App\bin\Debug\net6.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+D:\myproject\PageCom\Aggregator\PageCom.Api\PageCom.api.App\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

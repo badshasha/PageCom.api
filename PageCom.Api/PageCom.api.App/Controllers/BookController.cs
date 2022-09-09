@@ -1,4 +1,5 @@
 ﻿using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using PageCom.Api.Application.DTO.BookDTO;
 using PageCom.Api.Application.Features.BookFeatures.Request.command;
@@ -10,6 +11,7 @@ namespace PageCom.api.App.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
+
 public class BookController : Controller
 {
    private readonly IMediator _mediator;
@@ -26,6 +28,10 @@ public class BookController : Controller
    [HttpGet]
    public async Task<ResponseDTO> GetAll()
    {
+
+      var profile = HttpContext.User.Identity.Name;
+      
+      
       try
       {
          var booklist = await this._mediator.Send(new BookGetAllRequestQuery());
@@ -54,7 +60,7 @@ public class BookController : Controller
       return this._response;
    }
    
-   
+   [Authorize(Roles = "admin")]
    [HttpDelete("{id}")]
    public async Task<ResponseDTO> Delete(int id)
    {
@@ -71,7 +77,7 @@ public class BookController : Controller
    }
    
    
-   
+   [Authorize(Roles = "admin")]
    [HttpPost]
    public async Task<ResponseDTO> Create([FromBody] BookViewDTO bookObj)
    {
@@ -87,6 +93,7 @@ public class BookController : Controller
       return this._response;
    }
 
+   [Authorize(Roles = "admin")]
    [HttpPut("{id}")]
    public async Task<ResponseDTO> Update(int id, [FromBody] BookViewDTO dto)
    {
