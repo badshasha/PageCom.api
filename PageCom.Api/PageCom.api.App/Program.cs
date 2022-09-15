@@ -26,17 +26,17 @@ var HOST = Environment.GetEnvironmentVariable("ID4HOST");
 var PORT = Environment.GetEnvironmentVariable("ID4PORT");
 
 
-builder.Services.AddAuthentication("bearer").AddJwtBearer("bearer", options =>
-{
-    // options.Authority = "https://localhost:7100";
-    options.Authority = (HOST != null) ? $"http://{HOST}:{PORT}":"https://localhost:7100";
-    options.TokenValidationParameters = new TokenValidationParameters()
-    {
-        ValidateAudience = false
-    };
-    options.RequireHttpsMetadata = false;
-
-});
+// builder.Services.AddAuthentication("bearer").AddJwtBearer("bearer", options =>
+// {
+//     // options.Authority = "https://localhost:7100";
+//     options.Authority = (HOST != null) ? $"http://{HOST}:{PORT}":"https://localhost:7100";
+//     options.TokenValidationParameters = new TokenValidationParameters()
+//     {
+//         ValidateAudience = false
+//     };
+//     options.RequireHttpsMetadata = false;
+//
+// });
 
 
 // builder.Services.AddAuthorization(options =>
@@ -56,7 +56,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-app.UseAuthentication();
+// app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
