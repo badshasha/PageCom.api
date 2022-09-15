@@ -19,16 +19,22 @@ builder.Services.ApplicationExtendService();
 builder.Services.PageComApiInfastructureExtenderInfo(builder.Configuration);
 
 
-// authentication  TODO add to infastructure class lib 
+// authentication  TODO add to infastructure class lib
+
+
+var HOST = Environment.GetEnvironmentVariable("ID4HOST");
+var PORT = Environment.GetEnvironmentVariable("ID4PORT");
 
 
 builder.Services.AddAuthentication("bearer").AddJwtBearer("bearer", options =>
 {
-    options.Authority = "https://localhost:7100";
+    // options.Authority = "https://localhost:7100";
+    options.Authority = (HOST != null) ? $"http://{HOST}:{PORT}":"https://localhost:7100";
     options.TokenValidationParameters = new TokenValidationParameters()
     {
         ValidateAudience = false
     };
+    options.RequireHttpsMetadata = false;
 
 });
 
