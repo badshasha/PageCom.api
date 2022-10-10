@@ -61,8 +61,6 @@ public static class PageCom_api_infastructureExtender
            ));
        }
        
-       
-       
         return service;
     }
 }
