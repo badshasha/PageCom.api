@@ -60,7 +60,7 @@ public class BookController : Controller
       return this._response;
    }
    
-   [Authorize(Roles = "admin")]
+   // [Authorize(Roles = "admin")]
    [HttpDelete("{id}")]
    public async Task<ResponseDTO> Delete(int id)
    {
@@ -77,7 +77,7 @@ public class BookController : Controller
    }
    
    
-   [Authorize(Roles = "admin")]
+   // [Authorize(Roles = "admin")]
    [HttpPost]
    public async Task<ResponseDTO> Create([FromBody] BookViewDTO bookObj)
    {
@@ -93,7 +93,7 @@ public class BookController : Controller
       return this._response;
    }
 
-   [Authorize(Roles = "admin")]
+   // [Authorize(Roles = "admin")]
    [HttpPut("{id}")]
    public async Task<ResponseDTO> Update(int id, [FromBody] BookViewDTO dto)
    {

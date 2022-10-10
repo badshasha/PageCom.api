@@ -16,6 +16,8 @@ public static class PageCom_api_infastructureExtender
         var USER = Environment.GetEnvironmentVariable("USER");
         var DATABASE = Environment.GetEnvironmentVariable("DATABASE");
         var PASSWORD = Environment.GetEnvironmentVariable("PASSWORD");
+
+        var AZURE_ENVIRONMENT = Environment.GetEnvironmentVariable("AZURE") != null ;
         
         
         
@@ -30,8 +32,21 @@ public static class PageCom_api_infastructureExtender
        
        if (HOST != null)
        {
-           string connectionString =
-               $"Data Source={HOST},{PORT};Initial Catalog={DATABASE};User ID={USER};Password={PASSWORD}";
+           string connectionString;
+           if (AZURE_ENVIRONMENT) // in the azure environment [  azure sql server  ]
+           {
+               connectionString =
+                   $"Server=tcp:{HOST},{PORT};Initial Catalog={DATABASE};Persist Security Info=False;User ID={USER};Password={PASSWORD};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+               Console.WriteLine("azure connection establish");
+           }
+           else  // testing production environment [ with docker minikube and kind cluster  ]
+           { 
+               connectionString =
+                   $"Data Source={HOST},{PORT};Initial Catalog={DATABASE};User ID={USER};Password={PASSWORD}";
+               Console.WriteLine("local production enviroment establish");
+           }
+
+          
            Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
            Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
            Console.WriteLine(connectionString);
